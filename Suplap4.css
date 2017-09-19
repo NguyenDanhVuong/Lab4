@@ -1,0 +1,84 @@
+div#image{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}  
+*{
+	font-family: Tahoma, arial;
+	font-size: 15px;
+
+}
+body {
+    margin: 0 8%;
+
+}
+header {
+    height: 88px;
+    background:30px;
+    background-color: red;
+}
+section{
+    margin-top: 20px;
+    color: white;
+}
+footer {
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    padding-top: 15px;
+    color: white;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 155px;
+    float: left;
+
+}
+
+.logo-text {
+    float: left;
+    margin: 20px 10px;
+    font-size: 40px;
+}
+
+.menu {
+    float: right;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.Lipsum{
+    width: 30%;
+    height: 520px;
+    float: left;
+    background-color: none;
+    padding: 0 10px;
+    margin: 10px;
+    color:black;
+    background-image:url(http://hinhnendep.vn/wp-content/uploads/2016/10/hinh-nen-powerpoint-co-dien-20-454x357.jpg);
+}
+.Lorem{
+    width: 30%;
+    height: 300px;
+    float: left;
+    background-color: none;
+    color: black;
+    padding: 0 10px;
+    margin: 10px;
+    background-image: url(http://hinhnendep.vn/wp-content/uploads/2016/10/hinh-nen-powerpoint-co-dien-20-454x357.jpg);
+}
+.clear-both {
+    clear: both;
+}
+
